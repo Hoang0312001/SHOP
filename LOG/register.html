@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="stylesheet" href="/Common/css/style.css">
+    <link rel="stylesheet" href="/Common/css/grid.css">
+    <link rel="stylesheet" href="./css/Login.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <title>Login</title>
+</head>
+<body>
+   <div class="Main ">
+    <div class="Login l-11 grid ">
+        <div class="left c-6 ">
+            <img src="https://images.unsplash.com/photo-1611175694989-4870fafa4494?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=674&q=80" alt="">
+        </div>
+        <div class="right c-6 center">
+            <!-- start title  -->
+            <div class="title" >
+                <button class="logout-button logout"><i class="fas fa-arrow-left"></i></button>
+            </div>
+            <!-- end title -->
+             <!-- start form  -->
+            <!-- start input  -->
+            <form  method="post" id = "FormRegister">
+            <div class="input_log">
+                <div class="inputdata FullName">
+                     <input class="input" type="Text" name="fullname" placeholder="FullName">
+                 </div>
+                 <div class="inputdata UserName">
+                     <input class="input" type="Text" name="username" placeholder="UserName">
+                 </div>
+                <div class="inputdata PassWord">
+                    <input class="input" type="PassWord" name="password"   placeholder="PassWord">
+                </div>
+              
+                <div class="inputdata Mail">
+                    <input class="input" type="Email" name="mail"  placeholder="Email">
+                </div>
+                <div class="inputdata Phone">
+                    <input class="input" type="Phone" name="phone"  placeholder="Phone">
+                </div>
+            </div>
+            <!-- end start input -->
+            <!-- btn login -->
+            <div class="btn_login">
+                <button type="submit" class="btn_register text_btn_color">REGISTER</button>
+            </div>
+            <!-- end btn login -->
+          </form>
+            <!-- //end form  -->
+
+           
+        </div>
+    </div>
+   </div>
+</body>
+</html>
+<script src="./js/register.js"></script>

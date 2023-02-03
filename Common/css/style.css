@@ -1,0 +1,56 @@
+:root{
+    --while-color:#fff;
+    --back_color:#333;
+    --text_color:#000;
+    --primary_color:#FC6C00;
+    --text_btn_color:#fff;
+}
+.Main{
+      font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid_column-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.667%;
+}
+.grid_column-10{
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    padding-left:5px;
+    padding-right:5px;
+    width: 83.333%;
+}
+.grid__column-2-4{
+    padding-left:5px;
+padding-right:5px;
+width: 20%;
+}
+.grid__full__width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    /* tong chieu cao vuot qua tu nhay xuong dong */
+    flex-wrap: wrap;
+    margin-left:-5px;
+    margin-right: -5px;
+
+}
+.app-content{
+padding-top: 36px;
+}
+.text_btn_color{
+    color: var(--text_btn_color);
+}
+.text_center{
+    text-align: center;
+}
+.center {
+    text-align: center;
+
+}
+.flex_inline_center{
+    display: flex;
+    justify-content: center;
+}

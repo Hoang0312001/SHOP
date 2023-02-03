@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="stylesheet" href="/Common/css/style.css">
+    <link rel="stylesheet" href="/Common/css/grid.css">
+    <link rel="stylesheet" href="css/Login.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <link rel="icon" href="../image/photos.png">
+    <title>Login</title>
+</head>
+<body>
+   <div class="Main ">
+    <div class="Login l-11 grid ">
+        <div class="left c-6 ">
+            <img src="https://images.unsplash.com/photo-1611175694989-4870fafa4494?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=674&q=80" alt="">
+        </div>
+        <div class="right c-6 center">
+            <!-- start title  -->
+            <div class="title" >
+                <p>Login to continue</p>
+            </div>
+            <!-- end title -->
+            <!-- start form  -->
+            <form id="formlog">
+            <!-- start input  -->
+            <div class="input_log">
+                <div class="UserName">
+                    <label for="UserName">UserName</label>
+                     <input type="Text" name="username">
+                 </div>
+                <div class="PassWord">
+                    <label for="PassWord">PassWord</label>
+                    <input type="PassWord" name="password" id="">
+                </div>
+            </div>
+            <!-- end start input -->
+            
+            <!-- start ask -->
+            <div class="right_ask_label flex_inline_center">
+                <div class="check_ask">
+                    <span>Remember me</span>
+                    <input type="checkbox">
+                </div>
+                <div class="forget_pass">
+                    <span>Forgot PassWord ?</span>
+                </div>
+            </div>
+            <!-- end start ask  -->
+
+            <!-- btn login -->
+            <div class="btn_login">
+                <button type="button" class="btn_log text_btn_color">LOGIN</button>
+            </div>
+            <!-- end btn login -->
+           </form>
+           <!-- end form  -->
+            <!-- or icon log  -->
+            <div class="or_login">
+                <p>or sign up using</p>
+                <div class="icon_log flex_inline_center">
+                    <div class="icon icon_face">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="icon icon_tw">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- end or icon log -->
+
+        </div>
+    </div>
+   </div>
+</body>
+</html>
+<script type="module" src="./js/Login.js"></script>
