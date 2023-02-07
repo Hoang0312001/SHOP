@@ -16,4 +16,3 @@ $(".btn_log").click(function () {
 
 })
 
-
